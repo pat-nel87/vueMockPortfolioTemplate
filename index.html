@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+      <title>Mock Portfolio Page (Tinkering with Vue.js)</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Import Styles -->
+      <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+      <link rel="stylesheet" href="./assets/styles.css" />
+    <!-- Import Vue.js -->
+      <script src="https://unpkg.com/vue@3.0.11/dist/vue.global.js"></script>
+    </head>
+  <body>
+
+    <div class="test" id="app">
+    <f-nav></f-nav>
+    <fblogpost></fblogpost>
+    <fblogpost></fblogpost>
+
+  </div>
+
+
+    <!-- Import App -->
+    <script src="./main.js"></script>
+    <!--Components -->
+    <script src="./components/fnav.js"></script>
+    <script src="./components/blogpost.js"></script>
+    <script>
+      const mountedApp = app.mount('#app')
+    </script>
+
+  </body>
+</html>
